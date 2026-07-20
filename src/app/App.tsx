@@ -31,7 +31,7 @@ declare global {
 }
 
 // ── CONFIGURABLE ───────────────────────────────────────────────
-const TOGGLE_POSITION: "left" | "right" = "right";
+const TOGGLE_POSITION: "left" | "right" = "left";
 // ──────────────────────────────────────────────────────────────
 
 interface SettingItem {

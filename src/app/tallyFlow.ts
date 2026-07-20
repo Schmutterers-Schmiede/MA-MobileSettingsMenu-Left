@@ -42,7 +42,7 @@ export function getContext() {
 
 export function nextUrl(ctx: ReturnType<typeof getContext>) {
   const nextStep = ctx.step + 1;
-  if (nextStep >= 8) return `https://tally.so/r/FINAL_FORM_ID?pid=${ctx.pid}&grip=${ctx.grip}`;
+  if (nextStep >= 8) return `https://tally.so/r/gD17jO?pid=${ctx.pid}&grip=${ctx.grip}`;
   const nextPairIndex = Math.floor(nextStep / 2);
   const nextIsVariant = nextStep % 2 === 1;
   const nextPair = ctx.order[nextPairIndex];
